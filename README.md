@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# iMessage Clone APP
+
+### iMessage clone build using ReactJS with Material UI, Redux State Management, Firebase Hosting, Authentication, RealTime DB
+
+### LIVE DEMO: https://imessage-clone-e89c7.web.app/
+
+![Image of iMessage-clone](img/imessage.jpg)
 
 ## Available Scripts
 
