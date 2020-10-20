@@ -4,11 +4,14 @@ import './Sidebar.css';
 import SearchIcon from '@material-ui/icons/Search';
 import RateReviewOutlinedIcon from '@material-ui/icons/RateReviewOutlined';
 import SidebarChat from './SidebarChat';
+import { useSelector } from 'react-redux';
+import { selectUser } from './features/userSlice';
 const Sidebar = () => {
+  const user = useSelector(selectUser);
   return (
     <div className='sidebar'>
       <div className='sidebar__header'>
-        <Avatar />
+        <Avatar src={user.photo} className='sidebar__avatar' />
         <div className='sidebar__input'>
           <SearchIcon />
           <input placeholder='Search' />
